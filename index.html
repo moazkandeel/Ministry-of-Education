@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>استعلام عن حالة قرار</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="full">
+
+    <nav class="header">
+      <p>الصفحة الرئيسية</p>
+      <p class="lang"><span class="active">العربية</span> <strong class="astrick">|</strong> English</p>
+    </nav>
+
+    <img src="img/logo.png" class="img" alt="وزارة التعليم - سفير المعادلات">
+
+    <h2 class="disagn">استعلام عن حالة قرار</h2>
+    <p class="dis">
+      نظرا لدمج وزارة التعليم العالي والتربية والتعليم تحت مسمى "وزارة التعليم" فقد تم تغيير الرابط من
+    </p>
+
+    <div class="ancor">
+      <a href="https://eqs.mohe.gov.sa/RequestInquery.aspx" target="_blank">
+        https://eqs.mohe.gov.sa/RequestInquery.aspx
+      </a>
+      <p class="update">إلى</p>
+      <a href="https://eqs.moe.gov.sa/RequestInquery.aspx" target="_blank">
+        https://eqs.moe.gov.sa/RequestInquery.aspx
+      </a>
+    </div>
+
+    <form class="container">
+
+      <div class="form-group">
+        <label for="id">رقم الهوية الوطنية</label>
+        <input value="1015587700" type="text" id="id" placeholder="">
+      </div>
+
+      <div class="form-group">
+        <label for="model">رقم النموذج</label>
+        <input value="MS1446868175" type="text" id="model" placeholder="">
+      </div>
+
+      <div class="captcha">
+        <p style="color: blue;">تحديث رمز الصورة</p>
+        <img src="img/capatcha.bmp" alt="رمز التحقق">
+        <input type="text" placeholder="">
+        <label for="showResult" class="btn">استعلام</label>
+      </div>
+
+      <input type="checkbox" id="showResult" hidden>
+
+      <p class="updata">لا يوجد قرار معادلة</p>
+
+      <div class="result">
+        
+        <div class="card">
+          <h3 class="title">بيانات الطالب</h3>
+          <div class="row">
+            <p class="field"><strong>رقم الهوية الوطنية</strong> 1015587700</p>
+            <p class="field"><strong>اسم الطالب باللغة العربية</strong> عبدالرحمن بن عبدالله بن حسين آدم</p>
+            <p class="field"><strong>اسم الطالب باللغة الإنجليزية</strong> ABDULRAHMAN ABDULLAH H ADAM</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="title">بيانات الشهادة</h3>
+          <div class="row">
+            <p class="field"><strong>رقم الطلب</strong> MS1446689175</p>
+            <p class="field"><strong>بلد الدراسة</strong> فرنسا</p>
+            <p class="field"><strong>الجامعة مانحة للشهادة</strong> EUROPEAN INTERNATIONAL UNIVERSITY</p>
+            <p class="field"><strong>التخصص</strong> Information Technology and Systems / إدارة المعلومات وإدارة النظم / Management</p>
+            <p class="field"><strong>الدرجة العلمية الحاصل عليها</strong> ماجستير إدارة الأعمال</p>
+            <p class="field"><strong>مسمي الدرجة العلمية باللغة العربية</strong> ماجستير إدارة الأعمال</p>
+            <p class="field"><strong>تاريخ التخرج</strong> 2022</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="title">قرار لجنة معادلة الشهادات</h3>
+          <div class="row">
+            <p class="field"><strong>القرار</strong> مصدقة مطلقة</p>
+            <p class="field"><strong>معادل بدرجة</strong> الماجستير</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="title">نص القرار</h3>
+          <div class="row">
+            <p class="field">
+              إن الشهادة الحاصل عليها عبدالرحمن بن عبدالله بن حسين آدم في التخصص المشار إليه تعادل الماجستير في ذات التخصص بالمملكة العربية السعودية.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <h4>جميع الحقوق محفوظة لوزارة التعليم - المملكة العربية السعودية</h4>
+  <h4 class="hover-line">سياسة الخصوصيّة - مبادئ حماية و مشاركة البيانات</h4>
+
+  </footer>
+
+</body>
+</html>
